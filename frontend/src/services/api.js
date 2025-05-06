@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'uuconnect-backend.azurewebsites.net/api';
+const API_URL = 'https://uuconnect-backend.azurewebsites.net/api';
 
 const api = axios.create({
   baseURL: API_URL,
